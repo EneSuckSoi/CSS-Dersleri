@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=95FefUKEbVlIkgmw_hX6iY647nkxhzc61lnUCG0bA3RsGHc_nDToHj3s1STuyjQfnmo7BeEEHdwCEevbovA7r2gDY0mXV8F7o8dYpLo_-kOOj1hYO9SD1fDaBipsfQSgA--fNot7E2dAIKVPjGxnPghm0FZ5frU3amMpKlhMF-4ecq3FfHwHXzHXb4Bi2CsF7-ZJtDPApPPAgUF9BJ3faazTdfsuutyZTXmx44qQhEk8HA6ubP2-mrmF5o4-_M7FLuFGbsOIjgMBRtMBlDsZ3XVX7DmKIJwZLJkXRdwT3WP4QDK8cVkbFJZnGCvF2EfQp353h-FkrGudpw39CnRnCnQBXziBHPsKZS48wmsHkwfH-p7Q-SlYFGR3m01vWZWgHEp--jVzyitAOB64R7pSTmvWpCmpXEQ9jlM2Pp8JD-NSdjwp3oIAJOJaOqwT5mOkj27JwkZadtclAYfdDrX4boftlJ0diKyKs0AtaCRAL7L_kzbarfqX-RB9ZKnZawZoAIYPQNwjG4akUidi0Zkd7Ge1Rh-obcQ98z8-uWnIR6S414hp_Nhj4xPKkeC8tHngXmp0YFi1ZO2xuJ40ZbQau0BcL8JuuRhWCMuzBW4v0rumEQyYAxOhby2fFoYLqpoR4k8VaLv4Af8YVIJircwnIu9LA201zTw8INWu0p43mX8k8CeairNqyxoI_K1DDjsWQbiH7BQ5pmgE6uOeJbzxY8EZIHVSFEdxq5Bjyg7W1_IDyY9AbQjiMPOQPCU5MHq2Dl-3l70UUI8mnyzik1QzAA" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://me.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9hdHQtYy51ZGVteWNkbi5jb20vMjAyMi0wMS0xN18xMS0xOC0yMy02NDZlNDZlNWJmZTI5NWJiZDQ5NzBhZmI2Njc5MGJhNC9vcmlnaW5hbC5odG1sP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249YXR0YWNobWVudCUzYiUyMGZpbGVuYW1lJTNkZmxleC1uYXZiYXIuaHRtbCZFeHBpcmVzPTE3Mjk2NTMyMzEmU2lnbmF0dXJlPWlOelJycmlKZ1I3Qi1SVnFuUkFjdUplVE81Vjh4M240cnJQNGpYVDJCYi10dk9RNjV3NmhObnI0fm0tQUEwWFprZVZ3SEZlRGx1aHBONTBsfldvRzRuaDR1N2szMGY2OHpaSXFpOVVVSDBpdWg4RzBkRUhCSkl5YjFYbmFkSnhHb3VLQmJkQmdYYUxka2dOMHBwVkdvZWgwUnZraDFtVS1qci1PcFZKY2RsS3ZmSWtrSTlLc21xVmNzZnN-OXRXVnFobGZtWGhsbjBMRVBMczRJcjl4Z35RMmxZQjN3ckpRcGxFRTZrWkladVdMc2tPTjZmd0otcVhLV0xvdTVtVkdENnZuUG5jbGJ3LVJtRmp6RXF3Vk52b1ZVbkw0Q1M2eFpBWVNlVllMeGNWTi11V01JZTVYT3RJSDU4Z05DdHRGd3ItWEtFbFM3dEFwalBtQWlmdVR0QV9fJktleS1QYWlyLUlkPUszTUcxNDhLOVJJUkY0"/><style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: goldenrod;
+            padding: 0 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            align-self: center;
+            padding: 10px;
+        }
+
+        .navigation {
+            list-style: none;
+            display: flex;
+        }
+
+        .navigation a {
+            display: block;
+            padding: 16px;
+        }
+
+        .navigation a:hover {
+          background-color: rgb(233, 184, 61);
+        }
+
+        .navigation li:last-child {
+            display: none;
+        }
+
+        
+
+        @media (max-width: 600px) {
+            nav {
+                position: relative;
+                flex-direction: column;
+            }
+
+            nav a {
+                align-self: flex-start;
+            }
+
+            .navigation {
+                flex-direction: column;
+            }
+
+            .navigation a {
+                text-align: center;
+                padding: 10px;
+                border-top: 1px solid rgba(255,255,255,0.3);
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+            }
+
+            .navigation li:last-child {
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 10px;
+            }
+
+            .responsive .navigation li:not(:last-child) {
+                display: none;
+            }
+
+            .navigation li:last-child a {
+               border-bottom: none;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <nav class="responsive">
+        <a href="">Logo</a>
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">
+                <i class="fa fa-bars"></i>
+            </a></li>
+        </ul>
+    </nav>
+
+
+</body>
+</html>
